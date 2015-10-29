@@ -6,13 +6,22 @@
         <link rel="stylesheet" type="text/css" href="formulier.css">
     </head>
     <body>
+        <audio autoplay>
+          <source src="I_Am_Machine.mp3" type="audio/mpeg">
+        </audio>
 
         <!-- header met logo & navigatie -->
         <header>
+           <picture>
+            <source media="(min-width: 80em)" srcset="large.jpg">
+            <source media="(min-width: 50em)" srcset="med.jpg">
+            <img src="small.jpg" alt="picture">
+            </picture>
             <h1>CMD Amsterdam - Intranet</h1>
             <p>Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.</p>
-            <img src="cmd_logo.png" alt="">
+
             <nav>
+               <img src="06_menu_stack-128.png" alt="hamburger menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Opleiding</a></li>
@@ -510,6 +519,6 @@
             <p id="feedback"><a href="#">Geef ons feedback</a></p>
 
         </footer>
-
+<script language="javascript" type="text/javascript" src="formulier.js"></script>
     </body>
 </html>
